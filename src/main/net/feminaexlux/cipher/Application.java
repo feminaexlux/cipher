@@ -15,7 +15,6 @@ public class Application {
 
 	public static void main(final String[] arguments) {
 		VigenereDecoder decoder = new VigenereDecoder(encoded);
-		System.out.println(decoder.printDecoded());
 	}
 
 }
